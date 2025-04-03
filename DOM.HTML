@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>turtorial</title>
+<style>
+    .alert{
+color: aqua;
+background: green;
+padding: 5px;
+    }
+    </style>
+    </head>
+</body>
+<header>
+    <h1 id ="heading">welcome</h1>
+    <p> hello</p>
+    </header>
+    <p>how are you?</p>
+    <script>
+        let div=document.createElement('div');
+        div.id="paragraph";
+        div.className ="alert";
+        div.innerHTML ="<P>congrats!you have created a div.</p>";
+     document.body.append(div);
+     let heading =document.getElementById("heading") ;
+     heading.innerHTML ="&#128512;";
+     document.querySelector(`header p`).innerHTML ='<strong>good job!</strong>';
+ </script>
+ </body>
+ </html>   
